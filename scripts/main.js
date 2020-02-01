@@ -17,7 +17,7 @@ function stepSequence() {
     document.getElementById("display").innerHTML = sequence[counter], counter++, setTimeout(stepSequence, frequency);
 }
 
-var frequency = 1e3, sequence = [ '1111011', '1110110', '1111111', '1111011','0100000', '1111011','0100000', '1111011', '0010101', '1111101', '0010101', '1111011'], elements = document.getElementById("shape").getElementsByTagName("*"), counter = 0;
+var frequency = 1e3, sequence = [ '1111011', '1110110', '1111111', '1111011','0100000', '1111011','0100000', '1111011', '0010101', '1111101', '0010101', '1111011', '0100000'], elements = document.getElementById("shape").getElementsByTagName("*"), counter = 0;
 
 
 window.onload = function() {
