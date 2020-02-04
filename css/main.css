@@ -1,5 +1,5 @@
 body {
-  background: DarkSlateGray;
+  background: darkblue;
   display: block;
   margin: 0;
   height: 100vh;
@@ -7,7 +7,7 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  color: salmon;
+  color: white;
   pointer-events: none; }
 
 h1, svg {
@@ -28,7 +28,7 @@ h1 {
   z-index: 100; }
 
 svg {
-  fill: salmon;
+  fill: white;
   margin: -143.75px 0 0 -125px; }
   svg #shape polygon {
     opacity: 0;
