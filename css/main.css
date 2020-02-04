@@ -37,6 +37,7 @@ svg {
     svg #shape polygon.active {
       opacity: 1; }
   svg > polygon {
-    fill: #E4DED0;
+    fill: white;
+    opacity: .1;
 
   }
